@@ -63,7 +63,7 @@ header{
         }
 
         li{
-            padding-left: 2em;
+            margin-left: 2em;
             padding-top: 1em;
             cursor: pointer;
 
@@ -216,8 +216,8 @@ header{
         transition: all 1s linear;
         button{
             // twerk in every screen size
-            width: 8em;
-            height:2em;
+            width: 10em;
+            height:3em;
             font-weight: normal;
 
             border-radius: 1.5em;
@@ -386,8 +386,8 @@ header{
 
         button{
             // twerk in every screen size
-            width: 8em;
-            height:2em;
+            width: 10em;
+            height:3em;
             font-weight: normal;
 
             border-radius: 1.5em;

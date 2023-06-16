@@ -51,7 +51,7 @@ header nav ul .option:hover {
   color: var(--primary-color);
 }
 header nav ul li {
-  padding-left: 2em;
+  margin-left: 2em;
   padding-top: 1em;
   cursor: pointer;
 }
@@ -163,8 +163,8 @@ header nav ul li {
   transition: all 1s linear;
 }
 .about-me .about-me-title button {
-  width: 8em;
-  height: 2em;
+  width: 10em;
+  height: 3em;
   font-weight: normal;
   border-radius: 1.5em;
   color: var(--primary-color);
@@ -280,8 +280,8 @@ header nav ul li {
   transition: all 1s linear;
 }
 .intrest .intrest-title button {
-  width: 8em;
-  height: 2em;
+  width: 10em;
+  height: 3em;
   font-weight: normal;
   border-radius: 1.5em;
   color: var(--primary-color);
