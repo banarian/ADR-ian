@@ -1,0 +1,46 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+  background-color: rgba(19, 19, 19, 1);
+  color: white;
+  font-family: "poppins", sans-serif;
+  margin: 2em;
+  margin-top: 1em;
+  height: auto;
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav ul li{
+  padding-left: 2em;
+  padding-top: 1em;
+}
+
+/* image size controlled by w & h */
+.hero-img{
+  background: url(assets/astronaut.png);
+  width: 20vh;
+  height: 20vh;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hero-text{
+  margin-top: 10vh;
+}
