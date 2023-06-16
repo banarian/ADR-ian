@@ -2,6 +2,11 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 :root {
   --base-background-color:rgba(19, 19, 19, 1);
   --base-text-color:rgb(255, 255, 255);
@@ -18,9 +23,8 @@ body {
   font-family: "poppins", sans-serif;
   margin: 0;
   margin-top: 1em;
-  height: auto;
   width: auto;
-  overflow-x: hidden;
+  height: auto;
 }
 
 header {
@@ -119,7 +123,7 @@ header nav ul li {
 .hero .hero-text h1 {
   line-height: 80px;
   margin: 0;
-  font-size: 5rem;
+  font-size: 5em;
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
@@ -128,7 +132,7 @@ header nav ul li {
 }
 .hero .hero-text p {
   margin: 0;
-  max-width: 350px;
+  max-width: 250px;
   margin-bottom: 2em;
 }
 .hero .hero-text button {
@@ -256,9 +260,9 @@ header nav ul li {
 }
 
 .intrest {
-  margin: 0 2em;
   position: relative;
   height: 40vh;
+  padding-right: 2em;
 }
 .intrest .blob {
   position: absolute;
@@ -298,6 +302,7 @@ header nav ul li {
   right: 120%;
   min-width: 250px;
   text-align: right;
+  margin: 0 2em;
   background-color: var(--primary-color);
   color: var(--base-background-color);
   padding: 20px;
@@ -414,6 +419,7 @@ header nav ul li {
   font-size: 1em;
   transition: all 0.2s linear;
   cursor: pointer;
+  z-index: 2;
 }
 .learning .learning-container .capability button:hover {
   color: var(--base-background-color);
@@ -517,6 +523,7 @@ header nav ul li {
   font-size: 1em;
   transition: all 0.2s linear;
   cursor: pointer;
+  z-index: 2;
 }
 .learning .learning-container .Still-learning button:hover {
   color: var(--base-background-color);
@@ -606,6 +613,7 @@ header nav ul li {
   display: inline-block;
 }
 .learning .learning-container .intrest {
+  padding: 0;
   padding-top: 2em;
 }
 .learning .learning-container .intrest .wrapper {
@@ -620,6 +628,7 @@ header nav ul li {
   font-size: 1em;
   transition: all 0.2s linear;
   cursor: pointer;
+  z-index: 2;
 }
 .learning .learning-container .intrest button:hover {
   color: var(--base-background-color);
