@@ -1375,6 +1375,14 @@ header{
         transition: .5s;
         padding-right: 14px;
       }
+
+      ul li a .fa {
+        font-size: 40px;
+        color: #262626;
+        line-height:80px;
+        transition: .5s;
+        padding-right: 14px;
+      }
       
       ul li a span {
         padding:0;
@@ -1435,23 +1443,23 @@ header{
         color:#fff;
       }
       
-      ul li:hover:nth-child(1) a{
+      ul li:hover:nth-child(2) a{
         background: #3b5998;
       }
-      ul li:hover:nth-child(1) a:before{
+      ul li:hover:nth-child(2) a:before{
         background: #365492;
       }
-      ul li:hover:nth-child(1) a:after{
+      ul li:hover:nth-child(2) a:after{
         background: #4a69ad;
       }
       
-      ul li:hover:nth-child(2) a{
+      ul li:hover:nth-child(1) a{
         background: #7824fe;
       }
-      ul li:hover:nth-child(2) a:before{
+      ul li:hover:nth-child(1) a:before{
         background: #35008b;
       }
-      ul li:hover:nth-child(2) a:after{
+      ul li:hover:nth-child(1) a:after{
         background: #8f4aff;
       }
       

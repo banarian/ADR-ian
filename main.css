@@ -1020,6 +1020,13 @@ header nav ul li {
   transition: 0.5s;
   padding-right: 14px;
 }
+.social-media ul li a .fa {
+  font-size: 40px;
+  color: #262626;
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 14px;
+}
 .social-media ul li a span {
   padding: 0;
   margin: 0;
@@ -1074,22 +1081,22 @@ header nav ul li {
 .social-media ul li:hover span {
   color: #fff;
 }
-.social-media ul li:hover:nth-child(1) a {
+.social-media ul li:hover:nth-child(2) a {
   background: #3b5998;
 }
-.social-media ul li:hover:nth-child(1) a:before {
+.social-media ul li:hover:nth-child(2) a:before {
   background: #365492;
 }
-.social-media ul li:hover:nth-child(1) a:after {
+.social-media ul li:hover:nth-child(2) a:after {
   background: #4a69ad;
 }
-.social-media ul li:hover:nth-child(2) a {
+.social-media ul li:hover:nth-child(1) a {
   background: #7824fe;
 }
-.social-media ul li:hover:nth-child(2) a:before {
+.social-media ul li:hover:nth-child(1) a:before {
   background: #35008b;
 }
-.social-media ul li:hover:nth-child(2) a:after {
+.social-media ul li:hover:nth-child(1) a:after {
   background: #8f4aff;
 }
 .social-media ul li:hover:nth-child(3) a {
