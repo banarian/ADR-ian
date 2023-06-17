@@ -388,7 +388,7 @@ header nav ul li {
   height: 20vh;
   background-size: cover;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 80%;
   opacity: 0.3;
   filter: blur(4px);
