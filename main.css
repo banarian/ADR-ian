@@ -184,6 +184,7 @@ header nav ul li {
   top: -15%;
   left: 120%;
   min-width: 250px;
+  max-width: 20rem;
   background-color: var(--primary-color);
   color: var(--base-background-color);
   padding: 20px;
