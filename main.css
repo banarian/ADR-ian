@@ -183,7 +183,6 @@ header nav ul li {
   position: absolute;
   top: -15%;
   left: 120%;
-  max-width: 5rem;
   min-width: 250px;
   background-color: var(--primary-color);
   color: var(--base-background-color);
