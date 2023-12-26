@@ -244,6 +244,7 @@ header{
         top: -15%;
         left: 120%;
         min-width: 250px;
+        max-width: 30rem;
 
         background-color: var(--primary-color);
         color: var(--base-background-color);
@@ -414,6 +415,7 @@ header{
         top: -15%;
         right: 120%;
         min-width: 250px;
+        max-width: 30rem;
 
         text-align: right;
         margin:0 2em;
