@@ -160,7 +160,7 @@ header nav ul li {
   margin-bottom: 4em;
 }
 .about-me .about-me-title {
-  transition: all 1s cubic-bezier(.47,1.64,.41,.8);
+  transition: all 1s linear;
 }
 .about-me .about-me-title button {
   width: 10em;
@@ -189,7 +189,7 @@ header nav ul li {
   color: var(--base-background-color);
   padding: 20px;
   border-radius: 3px;
-  transition: all 1s cubic-bezier(.47,1.64,.41,.8);
+  transition: all 1s linear;
 }
 .about-me .about-me-content p {
   margin: 0;
@@ -278,7 +278,7 @@ header nav ul li {
 }
 .intrest .intrest-title {
   text-align: right;
-  transition: all 1s cubic-bezier(.47,1.64,.41,.8);
+  transition: all 1s linear;
 }
 .intrest .intrest-title button {
   width: 10em;
@@ -309,7 +309,7 @@ header nav ul li {
   color: var(--base-background-color);
   padding: 20px;
   border-radius: 3px;
-  transition: all 1s cubic-bezier(.47,1.64,.41,.8);
+  transition: all 1s linear;
 }
 .intrest .intrest-content p {
   margin: 0;
